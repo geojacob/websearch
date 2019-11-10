@@ -5,5 +5,5 @@ KEYWORD=$2;
 
 html=$( curl ${URL} );
 
-while ( 
+grep $KEYWORD $HTML
 
